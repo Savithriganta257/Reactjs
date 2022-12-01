@@ -1,3 +1,6 @@
+/*import PropsExample from "./PropsExample"*/
+/*import FuncPropsExample from "./FuncPropsExample"*/
+import StateExample from "./StateExample"
 /*import ClassComponent from  "./ClassComponent"
 import ClassComponent2 from "./ClassComponent2"
 function App(){
@@ -13,13 +16,18 @@ function App(){
     )
 }
 export default App*/
-import PropsExample from "./PropsExample"
+
 function  App(){
    return(
       <div>
-        <h1>This is about props  example</h1>
-        <PropsExample  name="savi" age="20"/>
-      </div>
+        <h1>This is about props</h1>
+    <StateExample/>
+    {/*<PropsExample framework="react" year="2008"/>
+    <PropsExample framework="veujs" year="2013"/>
+    <FuncPropsExample framework="nodejs" number="1"/>
+    <FuncPropsExample framework="javascript" number="2"/>
+   <FuncPropsExample framework="hmtl" number="3"/>*/ }
+</div>
       )
 }
 export default App
