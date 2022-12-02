@@ -1,6 +1,6 @@
 /*import PropsExample from "./PropsExample"*/
 /*import FuncPropsExample from "./FuncPropsExample"*/
-import StateExample from "./StateExample"
+/*import StateExample from "./StateExample"*/
 /*import ClassComponent from  "./ClassComponent"
 import ClassComponent2 from "./ClassComponent2"
 function App(){
@@ -16,12 +16,14 @@ function App(){
     )
 }
 export default App*/
-
+import Events from "./Events"
 function  App(){
    return(
       <div>
-        <h1>This is about props</h1>
-    <StateExample/>
+      <h1>This is about Events</h1>
+        <Events/>      
+       {/*<h1>This is about props</h1>
+    <StateExample/>*/}
     {/*<PropsExample framework="react" year="2008"/>
     <PropsExample framework="veujs" year="2013"/>
     <FuncPropsExample framework="nodejs" number="1"/>
